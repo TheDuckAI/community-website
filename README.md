@@ -1,2 +1,3 @@
-# theduckai.github.io
+# DuckAI 
 Community website
+Under construction!
