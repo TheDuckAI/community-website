@@ -10,5 +10,5 @@ Tentative Paper Abstract: Language models (LMs) have shown increasingly good per
 
 ## Join our community! 
 
-[Discord](https://discord.gg/7Z3ywQdh) [Github](https://github.com/TheDuckAI/)
+[Discord](https://discord.gg/mTUXfMXw) [Github](https://github.com/TheDuckAI/)
 
