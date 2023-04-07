@@ -8,6 +8,9 @@ We are a group of researchers passionate about exploring the capabilities and po
 ### DAAB: DuckAI Advanced Academic Benchmark (Coming soon)
 Tentative Paper Abstract: Language models (LMs) have shown increasingly good performance on most prior quantitative reasoning and knowledge benchmarks, such as MMLU (Hendrycks et. al., 2020) and MATH This has rendered many of these benchmarks saturated and effectively obsolete, as LMs can now solve them easily, even though superhuman performance on these tasks has not yet been demonstrated. In this paper, we introduce DAB, a new benchmark for evaluating LMs not only on quantitative reasoning, but also on text comprehension and expert domain reasoning, designed to be much more challenging than prior benchmarks. DAB contains questions requiring knowledge of mathematics, physics, biology, chemistry, and law.
 
+[Web Interface](https://theduckai.pythonanywhere.com/)
+
+
 ## Join our community! 
 
 [Discord](https://discord.gg/mTUXfMXw) [Github](https://github.com/TheDuckAI/)
