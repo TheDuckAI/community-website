@@ -1,12 +1,20 @@
-// src/components/Navbar.tsx
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import styles from './Navbar.module.css';
 
 const Navbar: React.FC = () => {
   return (
     <>
       <Link href="/">
-        <a>Home</a>
+        <a className={styles.logo}>
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={175}
+            height={175}
+          />
+        </a>
       </Link>
       <nav>
         <Link href="/about">
