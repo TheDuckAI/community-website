@@ -34,9 +34,11 @@
   border: 1px solid #000;
   min-height: 200px;
   cursor: pointer;
-  width: 600px;
   margin-bottom: 1.5rem;
   transition: background-color 0.3s;
+  width: 80%;
+  max-width: 600px;
+  box-sizing: border-box;
 }
 
 .projectBox:hover {
@@ -67,3 +69,30 @@
   margin-bottom: 1rem;
   display: block;
 }
+
+@media (max-width: 480px) {
+    .heading {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    .projectBox {
+      padding: 0.5rem;
+      min-height: 100px;
+    }
+  
+    .projectName {
+      font-size: 1.2rem;
+    }
+  
+    .githubIcon {
+      top: 0.5rem;
+      right: 0.5rem;
+    }
+  
+    .statusText {
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+  

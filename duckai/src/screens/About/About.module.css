@@ -26,7 +26,8 @@
 .description {
   font-size: 1.25rem;
   text-align: center;
-  max-width: 800px;
+  width: 80%;
+  max-width: 600px;
   margin-bottom: 2rem;
 }
 
