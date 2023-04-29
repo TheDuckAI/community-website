@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from './Home.module.css';
 
 export const Home: React.FC = () => {
@@ -16,6 +17,9 @@ export const Home: React.FC = () => {
               height={250}
             />
             <h1>The Open Source ML Community for Recursive Self-Improvement</h1>
+            <Link href="/projects">
+              <a className={styles.projectButton}>Check out our latest research &gt;&gt;</a>
+            </Link>
           </div>
         </h1>
       </div>
