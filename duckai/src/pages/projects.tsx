@@ -1,3 +1,3 @@
-import Projects from '../screens/Projects';
+import Projects from "../screens/Projects";
 
 export default Projects;
