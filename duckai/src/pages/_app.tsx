@@ -1,12 +1,12 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
-import { Cormorant_Garamond } from "@next/font/google"
-import { AnimatePresence } from 'framer-motion'
+import "@/styles/globals.css";
+import type { AppProps } from "next/app";
+import { Cormorant_Garamond } from "@next/font/google";
+import { AnimatePresence } from "framer-motion";
 
 export const cormorantGaramond = Cormorant_Garamond({
-  subsets: ['cyrillic'],
-  weight: '300'
-})
+  subsets: ["cyrillic"],
+  weight: "300",
+});
 
 export default function App({ Component, pageProps, router }: AppProps) {
   return (
@@ -15,7 +15,5 @@ export default function App({ Component, pageProps, router }: AppProps) {
         <Component {...pageProps} key={router.asPath} />
       </main>
     </AnimatePresence>
-    
-  )
-  
+  );
 }
