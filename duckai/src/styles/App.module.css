@@ -1,3 +1,9 @@
+@media (max-width: 480px) {
+    .navbar nav a {
+      font-size: 0.8rem;
+    }
+  }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -9,18 +15,18 @@
 }
 
 .navbar nav {
-  display: flex;
-  padding-right: 4rem;
-}
-
-.navbar nav a {
-  color: #fff;
-  text-decoration: none;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  position: relative;
-  padding-bottom: 4px;
-}
+    display: flex;
+    padding-right: 4rem;
+  }
+  
+  .navbar nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    position: relative;
+    padding-bottom: 4px;
+  }
 
 .navbar nav a::after {
   content: "";
@@ -30,13 +36,23 @@
   width: 0;
   height: 1px;
   background-color: #fff;
-  transition: width 0.3s; /* Adjust the underline animation duration */
+  transition: width 0.3s; 
 }
 
 .navbar nav a:hover::after {
   width: 100%;
 }
 
+@media (max-width: 480px) {
+    .footer {
+      flex-direction: column;
+      padding: 1rem;
+    }
+    .footer a {
+      margin: 0.25rem;
+    }
+  }
+  
 /* Footer */
 .footer {
   display: flex;
