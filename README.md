@@ -1,5 +1,5 @@
 # DuckAI 
-
+[Community Website](https://duckai.vercel.app/)
 ## About Us
 We are a group of researchers passionate about exploring the capabilities and potential of large language models and multimodal models. Our current focus lies in developing and examining various dataset projects to understand the depth and performance of these models in diverse domains (and say something along the line of developing the data of underexplored yet important tasks)
 
