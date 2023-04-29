@@ -9,13 +9,9 @@ const About: React.FC = () => {
       <div className={styles.container}>
         <h1 className={styles.heading}>About Us</h1>
         <p className={styles.description}>
-          Welcome to our landing site! We are a team of talented individuals
-          dedicated to providing top-notch web solutions. Our passion for
-          technology drives us to create amazing experiences for our clients.
+        We are a group of researchers passionate about exploring the capabilities and potential of large language models and multimodal models. 
+        Our current focus lies in developing and examining various dataset projects to understand the depth and performance of these models in diverse domains.
         </p>
-        <Link href="/">
-          <a className={styles.link}>Go back to Home</a>
-        </Link>
       </div>
     </Layout>
   );

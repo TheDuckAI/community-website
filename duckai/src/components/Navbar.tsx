@@ -18,10 +18,10 @@ const Navbar: React.FC = () => {
       </Link>
       <nav>
         <Link href="/about">
-          <a>About</a>
+          <a>About Us</a>
         </Link>
         <Link href="/projects">
-          <a>Projects</a>
+          <a>Our Work</a>
         </Link>
       </nav>
     </>
