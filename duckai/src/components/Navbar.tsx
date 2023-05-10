@@ -18,6 +18,9 @@ const Navbar: React.FC = () => {
         <Link href="/projects">
           <a>Our Work</a>
         </Link>
+        <Link href="/team">
+          <a>Team</a>
+        </Link>
       </nav>
     </>
   );

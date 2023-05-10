@@ -16,7 +16,7 @@ export const Home: React.FC = () => {
               width={250}
               height={250}
             />
-            <h1>The Open Source ML Community for Recursive Self-Improvement</h1>
+            <h1>An Open Source ML Research Community</h1>
             <Link href="/projects">
               <a className={styles.projectButton}>
                 Check out our latest research &gt;&gt;
