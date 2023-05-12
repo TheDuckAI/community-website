@@ -12,7 +12,7 @@ import Layout from "@/components/Layout"
 export default function PostPage({ source }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <Layout>
-      <div>
+      <div className={"content-container"}>
       <Head>
         <title>{source.frontmatter.title as string}</title>
       </Head>

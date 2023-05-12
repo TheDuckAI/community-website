@@ -22,13 +22,16 @@ export default function Home({ postPreviews }: InferGetStaticPropsType<typeof ge
 
 
         <div className={"row"}>
-        {postPreviews.map((postPreview, i) => {
-          return (
-            <div className={"col-6 mb-4"} key={i}>
-              <PostCard postPreview={postPreview} />
-            </div>
-          )
-        })}
+        {postPreviews.length === 0 ? (
+  <div className={"col-6 mb-4"}>New blog coming soon...</div>
+) : (
+  postPreviews.map((postPreview, i) => (
+    <div className={"col-6 mb-4"} key={i}>
+      <PostCard postPreview={postPreview} />
+    </div>
+  ))
+)}
+
     </div>
 
 

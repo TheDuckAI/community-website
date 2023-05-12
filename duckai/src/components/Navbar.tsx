@@ -23,15 +23,17 @@ const Navbar: React.FC = () => {
         <Link href="/about">
           <a>About Us</a>
         </Link>
-        <Link href="/projects">
-          <a>Our Work</a>
-        </Link>
+
         <Link href="/team">
           <a>Team</a>
         </Link>
 
+        <Link href="/projects">
+          <a>Our Work</a>
+        </Link>
+
         <Link href="/blog">
-          <a>Blog</a>
+          <a>Articles</a>
         </Link>
         <a href="mailto:duckai.ml@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} />
