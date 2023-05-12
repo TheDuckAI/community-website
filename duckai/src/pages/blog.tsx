@@ -23,7 +23,7 @@ export default function Home({
         <h1 className={"heading"}>Articles</h1>
 
         <div className={"row"}>
-          {postPreviews.length === 0 ? (
+          {postPreviews.length === 1 ? (
             <div className={"col-6 mb-4"}>New blog coming soon...</div>
           ) : (
             postPreviews.map((postPreview, i) => (
