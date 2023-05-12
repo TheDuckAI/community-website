@@ -6,19 +6,34 @@ import { serialize } from "next-mdx-remote/serialize"
 import path from "path"
 import { PostPreview } from "@/types/posts"
 import Layout from "@/components/Layout"
+import Image from "next/image"
 
 export default function Home({ postPreviews }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <Layout>
+      <div className={"posts-container"}>
+        <Image
+            src="/duck-contour-final.png"
+            alt="Descriptive Alt Text"
+            width={100}
+            height={100}
+          />
+        <h1 className={"heading"}>Articles</h1>
+
+
         <div className={"row"}>
-      {postPreviews.map((postPreview, i) => {
-        return (
-          <div className={"col-6 mb-4"} key={i}>
-            <PostCard postPreview={postPreview} />
-          </div>
-        )
-      })}
+        {postPreviews.map((postPreview, i) => {
+          return (
+            <div className={"col-6 mb-4"} key={i}>
+              <PostCard postPreview={postPreview} />
+            </div>
+          )
+        })}
     </div>
+
+
+      </div>
+        
 
     </Layout>
     

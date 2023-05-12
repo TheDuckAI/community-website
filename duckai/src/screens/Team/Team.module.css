@@ -33,15 +33,15 @@
   }
   
   .memberImage {
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
     margin-bottom: 1rem;
     border-radius: 50%;
     object-fit: cover;
   }
   
   .memberName {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
   }
   

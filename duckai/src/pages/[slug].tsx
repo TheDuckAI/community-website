@@ -7,11 +7,12 @@ import H1 from "@/components/mdx/H1"
 import React from "react"
 import P from "@/components/mdx/P"
 import H2 from "@/components/mdx/H2"
-import HeroImage from "@/components/mdx/HeroImage"
+import Layout from "@/components/Layout"
 
 export default function PostPage({ source }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
-    <div>
+    <Layout>
+      <div>
       <Head>
         <title>{source.frontmatter.title as string}</title>
       </Head>
@@ -22,10 +23,12 @@ export default function PostPage({ source }: InferGetStaticPropsType<typeof getS
           h1: H1,
           h2: H2,
           p: P,
-          HeroImage,
         }}
       />
     </div>
+
+    </Layout>
+    
   )
 }
 export async function getStaticPaths() {

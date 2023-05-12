@@ -3,6 +3,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import styles from './Team.module.css';
+import Image from 'next/image'
 
 const teamMembers = [
   {
@@ -35,11 +36,17 @@ const Team: React.FC = () => {
   return (
     <Layout>
       <div className={styles.container}>
+        <Image
+          src="/duck-contour-final.png"
+          alt="Descriptive Alt Text"
+          width={100}
+          height={100}
+        />
         <h1 className={styles.heading}>Our Team</h1>
             <div className={styles.teamGrid}>
                 {teamMembers.map((member, index) => (
                     <div key={index} className={styles.memberCard}>
-                    <img src={member.image} className={styles.memberImage} alt={member.name} />
+                    <Image src={member.image} className={styles.memberImage} alt={member.name} />
                     <h2 className={styles.memberName}>{member.name}</h2>
                     </div>
                 ))}
