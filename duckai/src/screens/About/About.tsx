@@ -18,11 +18,11 @@ const About: React.FC = () => {
 
         <p className={styles.description}>
           We are a team of researchers hailing from the Georgia Institute of
-          Technology and beyond, driven by our passion for investigating the
-          potential of large language models and multimodal systems. Our present
-          endeavors concentrate on the development and analysis of a variety of
-          dataset projects, with the aim of comprehending the depth and
-          performance of these models across diverse domains.
+          Technology and beyond, driven by our passion for investigating large
+          language models and multimodal systems. Our present endeavors
+          concentrate on the development and analysis of a variety of dataset
+          projects, with the aim of comprehending the depth and performance of
+          these models across diverse domains.
         </p>
       </div>
     </Layout>
