@@ -14,7 +14,7 @@ const projects = [
     githubLink: "https://github.com/TheDuckAI/DUCK-datasets",
   },
   {
-    name: "Donut OCR",
+    name: "Duck OCR",
     description:
       "An OCR model of quality comparable to proprietary OCR solutions that can generate bounding boxes around any word that appears on an image and label them with the corresponding word.",
     status: "In Progress",

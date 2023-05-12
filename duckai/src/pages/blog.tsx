@@ -24,9 +24,9 @@ export default function Home({
 
         <div className={"row"}>
           {postPreviews.length === 1 ? (
-            <div className={"col-6 mb-4"}>New blog coming soon...</div>
+            <div className={"col-6 mb-4"}>New blog post coming soon...</div>
           ) : (
-            postPreviews.map((postPreview, i) => (
+            postPreviews.slice(1).map((postPreview, i) => (
               <div className={"col-6 mb-4"} key={i}>
                 <PostCard postPreview={postPreview} />
               </div>
