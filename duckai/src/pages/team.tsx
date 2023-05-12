@@ -1,5 +1,5 @@
-import React from 'react';
-import Team from '../screens/Team';
+import React from "react";
+import Team from "../screens/Team";
 
 const TeamPage: React.FC = () => {
   return <Team />;
