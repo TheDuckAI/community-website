@@ -6,10 +6,8 @@ https://theduckai.netlify.app/
 Add new markdown files in `/posts_` folder in the following format:
 
 
-title: Put Your Title Here
 
-author: Jeffrey Deng
-
-date: May 23, 2023
-
+title: Put Your Title Here<br>
+author: Jeffrey Deng<br>
+date: May 23, 2023<br>
 
