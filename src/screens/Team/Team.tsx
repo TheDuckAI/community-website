@@ -39,7 +39,7 @@ const teamMembers = [
   {
     name: "Jeffrey Deng",
     image: "/team/jeff.jpeg",
-    links: , 
+    links: "https://jeffreydeng.vercel.app/", 
   },
 ];
 
@@ -56,16 +56,14 @@ const Team: React.FC = () => {
         <h1 className={styles.heading}>Our Team</h1>
         <div className={styles.teamGrid}>
           {teamMembers.map((member, index) => (
-            <a href={member.link} target="_blank" rel="noreferrer">
-              <div key={index} className={styles.memberCard}>
-                <Image
-                  src={member.image}
-                  className={styles.memberImage}
-                  alt={member.name}
-                />
-                <h2 className={styles.memberName}>{member.name}</h2>
-              </div>
-            </a>
+            <div key={index} className={styles.memberCard}>
+              <Image
+                src={member.image}
+                className={styles.memberImage}
+                alt={member.name}
+              />
+              <h2 className={styles.memberName}>{member.name}</h2>
+            </div>
           ))}
         </div>
       </div>
