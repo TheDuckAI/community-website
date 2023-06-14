@@ -7,7 +7,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const projects = [
   {
-    name: "Advanced Reasoning Benchmark (ARB) Project (previously: DAAB)",
+    name: "Advanced Reasoning Benchmark (ARB) Project",
     description:
       "advanced prompting methods, measure performance of LLMs to solve academic problems",
     status: "In Progress",
