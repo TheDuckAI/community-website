@@ -9,42 +9,42 @@ const projects = [
   {
     name: "Advanced Reasoning Benchmark (ARB) Project (previously: DAAB)",
     description:
-      "(#benchmark) advanced prompting methods, measure performance of LLMs to solve academic problems",
+      "advanced prompting methods, measure performance of LLMs to solve academic problems",
     status: "In Progress",
     githubLink: "https://github.com/TheDuckAI/DUCK-datasets",
   },
   {
     name: "Multimodal Dataset Project",
     description:
-      "(#multimodal) build dataset for training multimodal agents",
+      "build dataset for training multimodal agents",
     status: "In Progress",
     githubLink: "https://github.com/TheDuckAI/multimodal-computer-dataset",
   },
   {
     name: "Minerva-OCR Project",
     description:
-      "(#minerva-ocr) An OCR model of quality comparable to proprietary OCR solutions that can generate bounding boxes around any word that appears on an image and label them with the corresponding word.",
+      "An OCR model of quality comparable to proprietary OCR solutions that can generate bounding boxes around any word that appears on an image and label them with the corresponding word.",
     status: "In Progress",
     githubLink: "https://github.com/TheDuckAI/donut-ocr",
   },
   {
-    name: "Exploring video pretraining for sample efficient RL",
+    name: "Exploring video pretraining for sample efficient RL (aka #video-rl)",
     description:
-      "(#video-rl) Improve pre training of video models for sample efficient RL agents",
+      "Improve pre training of video models for sample efficient RL agents",
     status: "In Progress",
     githubLink: "https://github.com/TheDuckAI/video-rl",
   },
   {
-    name: "Non-English GPTs and better datasets and tokenizers",
+    name: "Non-English GPTs and better datasets and tokenizers (aka #polylingual)",
     description:
-      "(#polylingual) Build higher-quality non-English datasets and tokenizers and finetune non-English GPTs out of a pretrained English GPT",
+      "Build higher-quality non-English datasets and tokenizers and finetune non-English GPTs out of a pretrained English GPT",
     status: "In Progress",
     githubLink: "https://github.com/TheDuckAI/polylingual",
   },
   {
-    name: "Learning Machine Learning",
+    name: "Learning Machine Learning (aka #learning)",
     description:
-      "(#learning) bring people up to speed in SoTA machine learning",
+      "bring people up to speed in SoTA machine learning",
     status: "In Progress",
     // githubLink: "https://github.com/TheDuckAI/",
   },

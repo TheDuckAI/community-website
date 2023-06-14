@@ -9,30 +9,37 @@ const teamMembers = [
   {
     name: "Aran Komatsuzaki",
     image: "/team/aran.jpeg",
+    links: "https://twitter.com/arankomatsuzaki", 
   },
   {
     name: "Tom Sawada",
     image: "/team/tom.jpeg",
+    links: "https://twitter.com/tsawada_ml", 
   },
   {
     name: "Kshitij Gupta",
     image: "/team/kshitij.jpg",
+    links: "https://kshitijkg.github.io/", 
   },
   {
     name: "Alex Havrilla",
     image: "/team/alexh.jpeg",
+    links: "https://dahoas.github.io/", 
   },
   {
     name: "Pranav Tadepalli",
     image: "/team/pranav.jpeg",
+    links: "https://pranav.cc/", 
   },
   {
     name: "Alex Kranias",
     image: "/team/alexk.jpeg",
+    links: "https://alexkranias.com/index.html", 
   },
   {
     name: "Jeffrey Deng",
     image: "/team/jeff.jpeg",
+    links: , 
   },
 ];
 
@@ -49,14 +56,16 @@ const Team: React.FC = () => {
         <h1 className={styles.heading}>Our Team</h1>
         <div className={styles.teamGrid}>
           {teamMembers.map((member, index) => (
-            <div key={index} className={styles.memberCard}>
-              <Image
-                src={member.image}
-                className={styles.memberImage}
-                alt={member.name}
-              />
-              <h2 className={styles.memberName}>{member.name}</h2>
-            </div>
+            <a href={member.link} target="_blank" rel="noreferrer">
+              <div key={index} className={styles.memberCard}>
+                <Image
+                  src={member.image}
+                  className={styles.memberImage}
+                  alt={member.name}
+                />
+                <h2 className={styles.memberName}>{member.name}</h2>
+              </div>
+            </a>
           ))}
         </div>
       </div>
