@@ -7,18 +7,39 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const projects = [
   {
-    name: "DAAB",
+    name: "Advanced Reasoning Benchmark (ARB) Project (previously: DAAB)",
     description:
-      "DuckAI Advanced Academic Benchmark is a new benchmark for evaluating LLMs not only on quantitative reasoning, but also on text comprehension and expert domain reasoning, designed to be much more challenging than prior benchmarks. DAAB contains questions requiring knowledge of mathematics, physics, biology, chemistry, and law.",
+      "advanced prompting methods, measure performance of LLMs to solve academic problems",
     status: "In Progress",
     githubLink: "https://github.com/TheDuckAI/DUCK-datasets",
   },
   {
-    name: "Duck OCR",
+    name: "Multimodal Dataset",
+    description:
+      "build dataset for training multimodal agents",
+    status: "In Progress",
+    githubLink: "https://github.com/TheDuckAI/multimodal-computer-dataset",
+  },
+  {
+    name: "Minerva OCR",
     description:
       "An OCR model of quality comparable to proprietary OCR solutions that can generate bounding boxes around any word that appears on an image and label them with the corresponding word.",
     status: "In Progress",
     githubLink: "https://github.com/TheDuckAI/donut-ocr",
+  },
+  {
+    name: "Learning Machine Learning",
+    description:
+      "bring people up to speed in SoTA machine learning",
+    status: "In Progress",
+    githubLink: "https://github.com/TheDuckAI/",
+  },
+  {
+    name: "Video RL",
+    description:
+      "improve pre training of video models for sample efficient RL agents",
+    status: "In Progress",
+    githubLink: "https://github.com/TheDuckAI/video-rl",
   },
 ];
 

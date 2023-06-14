@@ -15,6 +15,10 @@ const teamMembers = [
     image: "/team/tom.jpeg",
   },
   {
+    name: "Kshitij Gupta",
+    image: "/team/kshitij.jpg",
+  },
+  {
     name: "Alex Havrilla",
     image: "/team/alexh.jpeg",
   },
