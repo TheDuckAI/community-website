@@ -66,12 +66,12 @@ const Projects: React.FC = () => {
           <div key={index} className={styles.projectBox}>
             <div className={styles.projectHeader}>
               <h2 className={styles.projectName}>{project.name}</h2>
-{/* {             <a href={project.githubLink} target="_blank" rel="noreferrer">
-                <FontAwesomeIcon
-                  icon={faGithub}
-                  className={styles.githubIcon}
-                />
-              </a> } */}
+{/*                 <a href={project.githubLink} target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon
+                      icon={faGithub}
+                      className={styles.githubIcon}
+                    />
+                </a>  */}
             </div>
             <span className={styles.statusText}>Status: {project.status}</span>
             <p>{project.description}</p>
