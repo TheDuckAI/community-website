@@ -9,26 +9,37 @@ const teamMembers = [
   {
     name: "Aran Komatsuzaki",
     image: "/team/aran.jpeg",
+    links: "https://twitter.com/arankomatsuzaki", 
   },
   {
     name: "Tom Sawada",
     image: "/team/tom.jpeg",
+    links: "https://twitter.com/tsawada_ml", 
+  },
+  {
+    name: "Kshitij Gupta",
+    image: "/team/kshitij.jpg",
+    links: "https://kshitijkg.github.io/", 
   },
   {
     name: "Alex Havrilla",
     image: "/team/alexh.jpeg",
+    links: "https://dahoas.github.io/", 
   },
   {
     name: "Pranav Tadepalli",
     image: "/team/pranav.jpeg",
+    links: "https://pranav.cc/", 
   },
   {
     name: "Alex Kranias",
     image: "/team/alexk.jpeg",
+    links: "https://alexkranias.com/index.html", 
   },
   {
     name: "Jeffrey Deng",
     image: "/team/jeff.jpeg",
+    links: "https://jeffreydeng.vercel.app/", 
   },
 ];
 
