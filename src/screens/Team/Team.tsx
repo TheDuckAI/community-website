@@ -14,7 +14,7 @@ const teamMembers = [
   {
     name: "Tom Sawada",
     image: "/team/tom.jpeg",
-    links: "https://twitter.com/tsawada_ml", 
+    links: "https://tomohiro-sawada.github.io/", 
   },
   {
     name: "Kshitij Gupta",
