@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
         <Link href="/blog">
           <a>Articles</a>
         </Link>
-        <a href="mailto:duckai.ml@gmail.com">
+        <a href="mailto:contact@duckai.org">
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
         <a
