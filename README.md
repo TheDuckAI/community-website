@@ -1,5 +1,4 @@
-Quack Quack
-https://theduckai.netlify.app/
+
 
 # To add a new post.
 
