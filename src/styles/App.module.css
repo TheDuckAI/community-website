@@ -11,7 +11,7 @@
 
   padding: 2rem 2rem;
   height: var(--header-height);
-  background-color: #333;
+  background-color: (45, 45, 45);
 }
 
 .navbar nav {

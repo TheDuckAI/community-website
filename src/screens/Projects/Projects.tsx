@@ -63,7 +63,7 @@ const Projects: React.FC = () => {
         <h1 className={styles.heading}>Projects</h1>
 
         {projects.map((project, index) => (
-          <div key={index} className={styles.projectBox}>
+          <div key={project.name} className={styles.projectBox}>
             <div className={styles.projectHeader}>
               <h2 className={styles.projectName}>{project.name}</h2>
 {/*                 <a href={project.githubLink} target="_blank" rel="noreferrer">

@@ -18,9 +18,9 @@ export const Home: React.FC = () => {
             />
             <h1>An Open Source ML Research Community</h1>
             <Link href="/projects">
-              <a className={styles.projectButton}>
+              <div className={styles.projectButton}>
                 Check out our latest research &gt;&gt;
-              </a>
+              </div>
             </Link>
           </div>
         </h1>

@@ -14,30 +14,32 @@ import {
 const Navbar: React.FC = () => {
   return (
     <>
-      <Link href="/">
-        <a className={styles.logo}>
+      <Link  href="/">
+        <div className={styles.logo}>
           <Image src="/logo.png" alt="Logo" width={175} height={175} />
-        </a>
+        </div>
       </Link>
       <nav>
         <Link href="/about">
-          <a>About Us</a>
+          <div>About Us</div>
         </Link>
 
         <Link href="/team">
-          <a>Team</a>
+          <div>Team</div>
         </Link>
 
         <Link href="/projects">
-          <a>Our Work</a>
+          <div>Our Work</div>
         </Link>
 
         <Link href="/blog">
-          <a>Articles</a>
+          <div>Articles</div>
         </Link>
+
         <a href="mailto:contact@duckai.org">
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
+
         <a
           href="https://github.com/TheDuckAI"
           target="_blank"
@@ -45,6 +47,7 @@ const Navbar: React.FC = () => {
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>
+
         <a
           href="https://twitter.com/TheDuckAI"
           target="_blank"
@@ -52,6 +55,7 @@ const Navbar: React.FC = () => {
         >
           <FontAwesomeIcon icon={faTwitter} />
         </a>
+
         <a
           href="https://discord.gg/myhu5pAEX7"
           target="_blank"

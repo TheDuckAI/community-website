@@ -52,15 +52,19 @@ const Team: React.FC = () => {
           alt="Descriptive Alt Text"
           width={100}
           height={100}
+      
         />
         <h1 className={styles.heading}>Our Team</h1>
         <div className={styles.teamGrid}>
           {teamMembers.map((member, index) => (
-            <div key={index} className={styles.memberCard}>
+            <div className={styles.memberCard}>
               <Image
+                key={member.name}
                 src={member.image}
                 className={styles.memberImage}
                 alt={member.name}
+                width={100}
+                height={100}
               />
               <h2 className={styles.memberName}>{member.name}</h2>
             </div>

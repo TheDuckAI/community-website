@@ -13,7 +13,9 @@ export default function Home({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <Layout>
-      <div className={"posts-container"}>
+      <div style={{background:" #333333;" , color:"white"}}
+          className={"posts-container"}
+      >
         <Image
           src="/duck-contour-final.png"
           alt="Descriptive Alt Text"

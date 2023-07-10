@@ -3,10 +3,13 @@
   vertical-align: middle;
   margin-right: 1rem;
   padding-left: 4rem;
+  background: #333333;
+  color:white;
 }
 
 @media (max-width: 768px) {
     .logo {
       padding-left: 1rem;
+      color:transparent
     }
   }
