@@ -5,6 +5,8 @@
     justify-content: center;
     padding: 1rem;
     animation: fadeIn 0.5s ease-in;
+    color:white;
+    background: #333333;
   }
 
 
