@@ -13,9 +13,6 @@ export const cormorantGaramond = Cormorant_Garamond({
 export default function App({ Component, pageProps, router }: AppProps) {
   return (
     <>
-    <Head>
-      <meta name="google-site-verification" content="G-3MhyXayiPClo-PvC5XOHYF5jvgpC1YVXWMv7darRQ" />
-    </Head>
     <AnimatePresence mode="wait" initial={false}>
       <main className={cormorantGaramond.className}>
         <Component {...pageProps} key={router.asPath} />
