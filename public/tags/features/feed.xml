@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Duck AI</title>
+      <link>https://duckai.org//blog</link>
+      <description>Research Group Website &amp; Blog</description>
+      <language>en-us</language>
+      <managingEditor>undefined (Duck AI)</managingEditor>
+      <webMaster>undefined (Duck AI)</webMaster>
+      <lastBuildDate>Tue, 08 Mar 2016 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://duckai.org//tags/features/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://duckai.org//blog/code-sample</guid>
+    <title>Sample .md file</title>
+    <link>https://duckai.org//blog/code-sample</link>
+    <description>Example of a markdown file with code blocks and syntax highlighting</description>
+    <pubDate>Tue, 08 Mar 2016 00:00:00 GMT</pubDate>
+    <author>undefined (Duck AI)</author>
+    <category>markdown</category><category>code</category><category>features</category>
+  </item>
+
+    </channel>
+  </rss>

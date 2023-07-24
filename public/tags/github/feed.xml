@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Duck AI</title>
+      <link>https://duckai.org//blog</link>
+      <description>Research Group Website &amp; Blog</description>
+      <language>en-us</language>
+      <managingEditor>undefined (Duck AI)</managingEditor>
+      <webMaster>undefined (Duck AI)</webMaster>
+      <lastBuildDate>Fri, 11 Oct 2019 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://duckai.org//tags/github/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://duckai.org//blog/github-markdown-guide</guid>
+    <title>Markdown Guide</title>
+    <link>https://duckai.org//blog/github-markdown-guide</link>
+    <description>Markdown cheatsheet for all your blogging needs - headers, lists, images, tables and more! An illustrated guide based on GitHub Flavored Markdown.</description>
+    <pubDate>Fri, 11 Oct 2019 00:00:00 GMT</pubDate>
+    <author>undefined (Duck AI)</author>
+    <category>github</category><category>guide</category>
+  </item>
+
+    </channel>
+  </rss>
